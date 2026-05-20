@@ -22,8 +22,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Collect prices
-        env:
-          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
         run: python scraper.py
 
       - name: Publish updated data

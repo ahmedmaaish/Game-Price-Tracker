@@ -1,5 +1,174 @@
 {
-  "updated_at": null,
-  "stores": {},
-  "games": []
+  "updated_at": "2026-05-20T16:38:17+00:00",
+  "stores": {
+    "1": "Steam",
+    "2": "GamersGate",
+    "3": "GreenManGaming",
+    "7": "GOG",
+    "11": "Humble Store",
+    "13": "Uplay",
+    "15": "Fanatical",
+    "21": "WinGameStore",
+    "23": "GameBillet",
+    "25": "Epic Games Store",
+    "27": "Gamesplanet",
+    "28": "Gamesload",
+    "29": "2Game",
+    "30": "IndieGala",
+    "35": "DreamGame"
+  },
+  "games": [
+    {
+      "id": 202278,
+      "title": "Baldur's Gate 3",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1086940/3dd81008e9c385caf68152450c22353f6a8abec9/capsule_231x87.jpg?t=1777363040",
+      "steam_app_id": "1086940",
+      "cheapest_ever": 44.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 59.99,
+        "store_id": "7",
+        "deal_id": "KR6JzYIE5jQz4X%2FqfqZL7uqeWAALnY%2Beipr2lwHIFGI%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 59.99
+        }
+      ]
+    },
+    {
+      "id": 202350,
+      "title": "Cyberpunk 2077",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/590e0988a2fb79f44d3e31e41fd4949eb76abc41/capsule_231x87.jpg?t=1769690377",
+      "steam_app_id": "1091500",
+      "cheapest_ever": 20.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 20.99,
+        "store_id": "7",
+        "deal_id": "KTOzm9HzGL%2FECX6QwgAdbEdqnw8fAWGTIfrly4J9Cfg%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 20.99
+        }
+      ]
+    },
+    {
+      "id": 236717,
+      "title": "ELDEN RING",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1245620/capsule_231x87.jpg?t=1767883716",
+      "steam_app_id": "1245620",
+      "cheapest_ever": 29.95,
+      "current": {
+        "date": "2026-05-20",
+        "price": 44.99,
+        "store_id": "23",
+        "deal_id": "0yH%2B27fnkwwPMEtLKiv52IGhamBesRW%2F9Ictx3%2B%2B2t0%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 44.99
+        }
+      ]
+    },
+    {
+      "id": 196149,
+      "title": "Hades",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/capsule_231x87.jpg?t=1758127023",
+      "steam_app_id": "1145360",
+      "cheapest_ever": 6.24,
+      "current": {
+        "date": "2026-05-20",
+        "price": 24.99,
+        "store_id": "1",
+        "deal_id": "%2FRRvRbW4trH2Me4HcfUIFk5pCGamwlMuyid9ZTDJ4do%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 24.99
+        }
+      ]
+    },
+    {
+      "id": 165363,
+      "title": "Hollow Knight",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/fba7289f4c7e90ae9c0caa87e4225f3f9111d7dd/capsule_231x87.jpg?t=1776125684",
+      "steam_app_id": "367520",
+      "cheapest_ever": 2.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 7.49,
+        "store_id": "11",
+        "deal_id": "rmecI07YNZZyob1X1p2pGavwnQgzopI5i9RzJ2dWYgA%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 7.49
+        }
+      ]
+    },
+    {
+      "id": 206516,
+      "title": "Red Dead Redemption 2",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_231x87.jpg?t=1759502961",
+      "steam_app_id": "1174180",
+      "cheapest_ever": 12.9,
+      "current": {
+        "date": "2026-05-20",
+        "price": 14.99,
+        "store_id": "11",
+        "deal_id": "mR742Y4c1gIWmd6swzFlwkJkE8gYHgTwTf2J91%2FJ5fs%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 14.99
+        }
+      ]
+    },
+    {
+      "id": 150036,
+      "title": "Stardew Valley",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/413150/capsule_231x87.jpg?t=1754692865",
+      "steam_app_id": "413150",
+      "cheapest_ever": 5.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 7.49,
+        "store_id": "1",
+        "deal_id": "nnV4CAy%2FSNFdauueGk5i77t%2B8%2F1DlMAY567iPs2l654%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 7.49
+        }
+      ]
+    },
+    {
+      "id": 112330,
+      "title": "The Witcher 3: Wild Hunt",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/abf6e7b3b01ed20c35a8dc0a009a8f9fc3e57b93/capsule_231x87.jpg?t=1768303991",
+      "steam_app_id": "292030",
+      "cheapest_ever": 3.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 7.99,
+        "store_id": "11",
+        "deal_id": "xp5saYR8o00pMpc%2Bb9jKjHOt69exT8tP%2BtvyFlH92g8%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 7.99
+        }
+      ]
+    }
+  ]
 }

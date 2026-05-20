@@ -1,27 +1,21 @@
 """Daily price collector for the game price tracker.
 
 Resolves a watchlist of game titles to CheapShark game IDs, fetches their
-current cheapest prices across stores, stores everything in Supabase
-(Postgres), and exports docs/data.json for the GitHub Pages frontend.
-
-Env:
-    SUPABASE_DB_URL  Postgres connection string (use the Session pooler URI).
+current cheapest prices, and appends today's prices to docs/data.json.
+That JSON file IS the database -- the GitHub Actions workflow commits it
+back to the repo after every run, so price history builds up in git.
 """
 import json
-import os
-import sys
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-import psycopg2
 import requests
-from psycopg2.extras import execute_values
 
 API = "https://www.cheapshark.com/api/1.0"
 ROOT = Path(__file__).resolve().parent
 WATCHLIST = ROOT / "watchlist.json"
-OUTPUT = ROOT / "docs" / "data.json"
+DATA = ROOT / "docs" / "data.json"
 HISTORY_DAYS = 180
 ID_BATCH = 25  # CheapShark /games accepts a comma-separated id list
 
@@ -36,7 +30,7 @@ def load_watchlist():
     titles = json.loads(WATCHLIST.read_text(encoding="utf-8")).get("games", [])
     titles = [t.strip() for t in titles if t.strip()]
     if not titles:
-        sys.exit("watchlist.json has no games -- add some titles and retry.")
+        raise SystemExit("watchlist.json has no games -- add some titles and retry.")
     return titles
 
 
@@ -72,110 +66,78 @@ def cheapest_deal(game):
     return min(deals, key=lambda d: float(d["price"]), default=None)
 
 
-def collect():
+def load_existing():
+    """Return {game_id: game_record} from the current data.json, if any."""
+    if not DATA.exists():
+        return {}
+    try:
+        data = json.loads(DATA.read_text(encoding="utf-8"))
+    except ValueError:
+        return {}
+    return {g["id"]: g for g in data.get("games", [])}
+
+
+def trim(history):
+    """Drop entries older than the retention window and sort by date."""
+    cutoff = (date.today() - timedelta(days=HISTORY_DAYS)).isoformat()
+    kept = [h for h in history if h.get("date", "") >= cutoff]
+    kept.sort(key=lambda h: h["date"])
+    return kept
+
+
+def main():
+    today = date.today().isoformat()
     titles = load_watchlist()
     ids = resolve_ids(titles)
     if not ids:
-        sys.exit("Could not resolve any watchlist titles to game IDs.")
+        raise SystemExit("Could not resolve any watchlist titles to game IDs.")
     stores = fetch_stores()
     details = fetch_game_details(list(ids.keys()))
+    existing = load_existing()
 
-    games, prices = [], []
+    games = []
+    recorded = 0
     for gid, game in details.items():
+        game_id = int(gid)
         info = game.get("info") or {}
         ever = game.get("cheapestPriceEver") or {}
-        games.append((
-            int(gid),
-            info.get("title") or ids.get(gid) or f"Game {gid}",
-            info.get("thumb"),
-            info.get("steamAppID"),
-            float(ever["price"]) if ever.get("price") else None,
-        ))
         deal = cheapest_deal(game)
+
+        prev = existing.get(game_id, {})
+        history = [h for h in prev.get("history", []) if h.get("date") != today]
+
         if deal:
-            prices.append((int(gid), float(deal["price"]),
-                           deal.get("storeID"), deal.get("dealID")))
+            price = float(deal["price"])
+            history.append({"date": today, "price": price})
+            current = {
+                "date": today,
+                "price": price,
+                "store_id": deal.get("storeID"),
+                "deal_id": deal.get("dealID"),
+            }
+            recorded += 1
         else:
+            current = prev.get("current")
             print(f"  {info.get('title', gid)}: no active deal today")
-    return stores, games, prices
 
-
-def save(stores, games, prices):
-    db_url = os.environ.get("SUPABASE_DB_URL")
-    if not db_url:
-        sys.exit("SUPABASE_DB_URL is not set.")
-
-    with psycopg2.connect(db_url) as conn, conn.cursor() as cur:
-        execute_values(cur, """
-            insert into games (id, title, thumb, steam_app_id, cheapest_ever)
-            values %s
-            on conflict (id) do update set
-                title = excluded.title,
-                thumb = excluded.thumb,
-                steam_app_id = excluded.steam_app_id,
-                cheapest_ever = excluded.cheapest_ever,
-                updated_at = now()
-        """, games)
-
-        if prices:
-            execute_values(cur, """
-                insert into price_history (game_id, price, store_id, deal_id)
-                values %s
-                on conflict (game_id, recorded_at) do update set
-                    price = excluded.price,
-                    store_id = excluded.store_id,
-                    deal_id = excluded.deal_id
-            """, prices)
-
-        cur.execute("select id, title, thumb, steam_app_id, cheapest_ever from games")
-        meta = {r[0]: r for r in cur.fetchall()}
-
-        cur.execute("""
-            select game_id, recorded_at, price, store_id, deal_id
-            from price_history
-            where recorded_at >= current_date - %s
-            order by game_id, recorded_at
-        """, (HISTORY_DAYS,))
-        history = {}
-        for game_id, day, price, store_id, deal_id in cur.fetchall():
-            history.setdefault(game_id, []).append({
-                "date": day.isoformat(),
-                "price": float(price),
-                "store_id": store_id,
-                "deal_id": deal_id,
-            })
-
-    return export(stores, meta, history)
-
-
-def export(stores, meta, history):
-    games = []
-    for gid, row in meta.items():
-        hist = history.get(gid, [])
         games.append({
-            "id": gid,
-            "title": row[1],
-            "thumb": row[2],
-            "steam_app_id": row[3],
-            "cheapest_ever": float(row[4]) if row[4] is not None else None,
-            "current": hist[-1] if hist else None,
-            "history": [{"date": h["date"], "price": h["price"]} for h in hist],
+            "id": game_id,
+            "title": info.get("title") or ids.get(gid) or f"Game {gid}",
+            "thumb": info.get("thumb"),
+            "steam_app_id": info.get("steamAppID"),
+            "cheapest_ever": float(ever["price"]) if ever.get("price") else None,
+            "current": current,
+            "history": trim(history),
         })
-    games.sort(key=lambda g: g["title"].lower())
 
-    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT.write_text(json.dumps({
+    games.sort(key=lambda g: g["title"].lower())
+    DATA.parent.mkdir(parents=True, exist_ok=True)
+    DATA.write_text(json.dumps({
         "updated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "stores": stores,
         "games": games,
     }, indent=2), encoding="utf-8")
-    return len(games)
-
-
-def main():
-    stores, games, prices = collect()
-    count = save(stores, games, prices)
-    print(f"Done -- {count} games tracked, {len(prices)} prices recorded today.")
+    print(f"Done -- {len(games)} games tracked, {recorded} prices recorded for {today}.")
 
 
 if __name__ == "__main__":
