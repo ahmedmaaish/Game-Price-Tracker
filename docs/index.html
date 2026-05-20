@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Game Price Tracker</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: #0f1115; color: #e6e6e6;
+  }
+  header { padding: 28px 20px 8px; text-align: center; }
+  header h1 { margin: 0; font-size: 1.6rem; }
+  header p { margin: 6px 0 0; color: #8b93a7; font-size: .9rem; }
+  main { max-width: 1100px; margin: 0 auto; padding: 20px; }
+  .grid {
+    display: grid; gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+  .card {
+    background: #181b22; border: 1px solid #262a35; border-radius: 12px;
+    overflow: hidden; cursor: pointer; transition: border-color .15s, transform .15s;
+  }
+  .card:hover { border-color: #4c7dff; transform: translateY(-2px); }
+  .card img { width: 100%; height: 110px; object-fit: cover; background: #11131a; }
+  .card .body { padding: 12px 14px; }
+  .card .title {
+    font-size: .95rem; font-weight: 600; margin: 0 0 8px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .price { font-size: 1.25rem; font-weight: 700; color: #4caf78; }
+  .low { font-size: .78rem; color: #8b93a7; margin-top: 4px; }
+  .empty { text-align: center; color: #8b93a7; padding: 60px 20px; }
+  dialog {
+    background: #181b22; color: #e6e6e6; border: 1px solid #262a35;
+    border-radius: 14px; padding: 0; width: min(640px, 92vw);
+  }
+  dialog::backdrop { background: rgba(0, 0, 0, .6); }
+  .modal-head {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 16px 20px; border-bottom: 1px solid #262a35;
+  }
+  .modal-head h2 { margin: 0; font-size: 1.1rem; }
+  .modal-head button {
+    background: none; border: none; color: #8b93a7;
+    font-size: 1.4rem; cursor: pointer; line-height: 1;
+  }
+  .modal-body { padding: 20px; }
+  .modal-body .price { margin: 0 0 14px; }
+  .buy {
+    display: inline-block; margin-top: 14px; padding: 9px 18px;
+    background: #4c7dff; color: #fff; text-decoration: none;
+    border-radius: 8px; font-weight: 600; font-size: .9rem;
+  }
+  footer { text-align: center; color: #5a6072; font-size: .8rem; padding: 24px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Game Price Tracker</h1>
+  <p id="updated">Loading...</p>
+</header>
+<main>
+  <div id="grid" class="grid"></div>
+</main>
+<footer>Prices via the CheapShark API &mdash; updated daily by GitHub Actions.</footer>
+
+<dialog id="modal">
+  <div class="modal-head">
+    <h2 id="m-title"></h2>
+    <button id="m-close" aria-label="Close">&times;</button>
+  </div>
+  <div class="modal-body">
+    <p id="m-current" class="price"></p>
+    <canvas id="chart" height="200"></canvas>
+    <a id="m-buy" class="buy" target="_blank" rel="noopener">View deal</a>
+  </div>
+</dialog>
+
+<script>
+const REDIRECT = "https://www.cheapshark.com/redirect?dealID=";
+let stores = {}, chart = null;
+
+function money(n) { return n == null ? "—" : "$" + Number(n).toFixed(2); }
+
+function card(game) {
+  const cur = game.current;
+  const el = document.createElement("div");
+  el.className = "card";
+  const atLow = cur && game.cheapest_ever != null
+    && cur.price <= game.cheapest_ever + 0.001;
+  el.innerHTML = `
+    <img src="${game.thumb || ""}" alt="" loading="lazy">
+    <div class="body">
+      <p class="title" title="${game.title}">${game.title}</p>
+      <div class="price">${money(cur && cur.price)}</div>
+      <div class="low">Lowest ever: ${money(game.cheapest_ever)}` +
+      (atLow ? " &mdash; at its low!" : "") + `</div>
+    </div>`;
+  el.addEventListener("click", () => openModal(game));
+  return el;
+}
+
+function openModal(game) {
+  document.getElementById("m-title").textContent = game.title;
+
+  const cur = game.current;
+  const mc = document.getElementById("m-current");
+  mc.textContent = cur
+    ? money(cur.price) + " at " + (stores[cur.store_id] || "store")
+    : "No active deal right now";
+
+  const buy = document.getElementById("m-buy");
+  if (cur && cur.deal_id) {
+    buy.href = REDIRECT + cur.deal_id;
+    buy.style.display = "inline-block";
+  } else {
+    buy.style.display = "none";
+  }
+
+  const labels = game.history.map(h => h.date);
+  const values = game.history.map(h => h.price);
+  if (chart) chart.destroy();
+  chart = new Chart(document.getElementById("chart"), {
+    type: "line",
+    data: {
+      labels,
+      datasets: [{
+        label: "Price", data: values,
+        borderColor: "#4c7dff", backgroundColor: "rgba(76,125,255,.15)",
+        fill: true, stepped: true, pointRadius: 2,
+      }],
+    },
+    options: {
+      scales: {
+        x: { grid: { color: "#262a35" }, ticks: { color: "#8b93a7" } },
+        y: {
+          grid: { color: "#262a35" },
+          ticks: { color: "#8b93a7", callback: v => "$" + v },
+        },
+      },
+      plugins: { legend: { display: false } },
+    },
+  });
+  document.getElementById("modal").showModal();
+}
+
+document.getElementById("m-close").onclick =
+  () => document.getElementById("modal").close();
+
+fetch("data.json?" + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    stores = data.stores || {};
+    const grid = document.getElementById("grid");
+    const upd = document.getElementById("updated");
+    if (!data.games || !data.games.length) {
+      upd.textContent = "No data yet — the tracker runs daily.";
+      grid.innerHTML = '<p class="empty">No games tracked yet. Add titles to '
+        + 'watchlist.json and run the workflow.</p>';
+      return;
+    }
+    upd.textContent = "Tracking " + data.games.length + " games — last updated "
+      + (data.updated_at ? new Date(data.updated_at).toLocaleDateString() : "never");
+    data.games.forEach(g => grid.appendChild(card(g)));
+  })
+  .catch(() => {
+    document.getElementById("updated").textContent = "Could not load data.json.";
+  });
+</script>
+</body>
+</html>
