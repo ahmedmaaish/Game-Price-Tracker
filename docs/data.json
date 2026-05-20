@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T17:01:28+00:00",
+  "updated_at": "2026-05-20T17:19:25+00:00",
   "stores": {
     "1": "Steam",
     "2": "GamersGate",
@@ -18,6 +18,226 @@
     "35": "DreamGame"
   },
   "games": [
+    {
+      "id": 248606,
+      "title": "A Building Full of Cats",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1969080/capsule_231x87.jpg?t=1749740618",
+      "steam_app_id": "1969080",
+      "cheapest_ever": 0.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 0.99,
+        "retail": 1.99,
+        "store_id": "1",
+        "deal_id": "3YHp7PjkPSYI5h2Ldx4C3%2FM7qmhZvfozhozDAEqOaYY%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "id": 253153,
+      "title": "A Castle Full of Cats",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2070550/capsule_231x87.jpg?t=1764106481",
+      "steam_app_id": "2070550",
+      "cheapest_ever": 1.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 2.39,
+        "retail": 3.99,
+        "store_id": "1",
+        "deal_id": "jGii3gQFu6sRGfWHb0ZkBq1lQXfuRcJ%2F8CNrpeM3Iyg%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 2.39
+        }
+      ]
+    },
+    {
+      "id": 203652,
+      "title": "A Short Hike",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1055540/df88a75bc65beb0d4bea2d52fa6718f8b5b6e35e/capsule_231x87.jpg?t=1777758958",
+      "steam_app_id": "1055540",
+      "cheapest_ever": 3.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 4.79,
+        "retail": 7.99,
+        "store_id": "7",
+        "deal_id": "2oaHsiBU43U74LRgl9IgkJ9itc0nEfM45P0q%2FsVgNUo%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 4.79
+        }
+      ]
+    },
+    {
+      "id": 286397,
+      "title": "A Tower Full of Cats",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2179170/capsule_231x87.jpg?t=1764106676",
+      "steam_app_id": "2179170",
+      "cheapest_ever": 3.49,
+      "current": {
+        "date": "2026-05-20",
+        "price": 4.19,
+        "retail": 5.99,
+        "store_id": "1",
+        "deal_id": "J7k6DjfYjSeeEhznpIolfJ33lvNNR5JGgousSCNoXjw%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 4.19
+        }
+      ]
+    },
+    {
+      "id": 254789,
+      "title": "Aokana - Four Rhythms Across the Blue - EXTRA2",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2206340/capsule_231x87.jpg?t=1724439926",
+      "steam_app_id": "2206340",
+      "cheapest_ever": 15.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 24.99,
+        "retail": 24.99,
+        "store_id": "1",
+        "deal_id": "seB5BkGJsg14bf3JL%2Fv%2BeUFddJDuJKOLLmHf%2FZJoLe8%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 24.99
+        }
+      ]
+    },
+    {
+      "id": 170046,
+      "title": "Assassins Creed Origins Deluxe Edition",
+      "thumb": "https://images.greenmangaming.com/954b123f74ce43e6a39abdaee7d33a61/cbc991bb102c4ad2a819a17b06e1701c.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 6.16,
+      "current": {
+        "date": "2026-05-20",
+        "price": 9.45,
+        "retail": 69.99,
+        "store_id": "3",
+        "deal_id": "4u5JTz2BV0r3SkfeMk4jCaTvbsrprAyTg4xglQbMC2Q%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 9.45
+        }
+      ]
+    },
+    {
+      "id": 170045,
+      "title": "Assassins Creed Origins Gold Edition",
+      "thumb": "https://images.greenmangaming.com/e6797d37de1243a1a79b5fede824bda3/da9b336eecab4f57b33543893d426051.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 8.8,
+      "current": {
+        "date": "2026-05-20",
+        "price": 13.5,
+        "retail": 99.99,
+        "store_id": "3",
+        "deal_id": "QJXBRCe2xCDLU8dk1E7SRD4ZMhlbsqcqQt8zOyLswxQ%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 13.5
+        }
+      ]
+    },
+    {
+      "id": 293096,
+      "title": "Back 4 Blood Deluxe",
+      "thumb": "https://www.indiegalacdn.com/get_store_img?img=store-img_game/games/medium/924970_deluxe.jpg&s=medium",
+      "steam_app_id": null,
+      "cheapest_ever": 7.69,
+      "current": {
+        "date": "2026-05-20",
+        "price": 7.99,
+        "retail": 89.99,
+        "store_id": "30",
+        "deal_id": "QP6em8WtgtgOaxwGaGnzPv%2BQbXmJ1dYi9B%2B6ORb%2BuVk%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 7.99
+        }
+      ]
+    },
+    {
+      "id": 293097,
+      "title": "Back 4 Blood Ultimate",
+      "thumb": "https://www.indiegalacdn.com/get_store_img?img=store-img_game/games/medium/924970_ultimate.jpg&s=medium",
+      "steam_app_id": null,
+      "cheapest_ever": 8.88,
+      "current": {
+        "date": "2026-05-20",
+        "price": 8.88,
+        "retail": 99.99,
+        "store_id": "30",
+        "deal_id": "1FgTMMUmnTfwWDP8weQUh35nmwjV0PXWMZVkdRscq9o%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 8.88
+        }
+      ]
+    },
+    {
+      "id": 235448,
+      "title": "Back 4 Blood: Deluxe Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/back-4-blood-deluxe-edition/cover-180-267524.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 6.66,
+      "current": {
+        "date": "2026-05-20",
+        "price": 8.54,
+        "retail": 89.99,
+        "store_id": "15",
+        "deal_id": "8GFKJt%2BAu0gvmzwrS0%2Bvnlx45GEDWrM45dAuf0tChiA%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 8.54
+        }
+      ]
+    },
+    {
+      "id": 235447,
+      "title": "Back 4 Blood: Ultimate Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/back-4-blood-ultimate-edition/cover-180-91231d.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 7.4,
+      "current": {
+        "date": "2026-05-20",
+        "price": 9.47,
+        "retail": 99.99,
+        "store_id": "27",
+        "deal_id": "SHm0PzINklnS4eIOvD0CankOkmwvURXkm45xmNaB9iY%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 9.47
+        }
+      ]
+    },
     {
       "id": 202278,
       "title": "Baldur's Gate 3",
@@ -39,6 +259,86 @@
       ]
     },
     {
+      "id": 258707,
+      "title": "Can of Wormholes",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1295320/capsule_231x87.jpg?t=1709174577",
+      "steam_app_id": "1295320",
+      "cheapest_ever": 9.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 19.99,
+        "retail": 19.99,
+        "store_id": "1",
+        "deal_id": "yDiVZIRFR6N8iEDjTRK18TC6soOWFN4%2F%2FfLjsfzF7Zs%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 19.99
+        }
+      ]
+    },
+    {
+      "id": 272975,
+      "title": "Captain Tsubasa: Rise of New Champions - Ultimate Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/captain-tsubasa-rise-of-new-champions-ultimate-edition/cover-180-3e59d7.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 11.91,
+      "current": {
+        "date": "2026-05-20",
+        "price": 12.4,
+        "retail": 79.99,
+        "store_id": "27",
+        "deal_id": "Ridzp4iQIn6TDlbzjMfYVcJbc2HEjcjQCdAmga1jTgo%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 12.4
+        }
+      ]
+    },
+    {
+      "id": 202932,
+      "title": "CODE VEIN Deluxe Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/code-vein-deluxe-edition/cover-180-26ad0a.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 6.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 6.99,
+        "retail": 79.99,
+        "store_id": "27",
+        "deal_id": "TGM3P%2BJVNjWL9Uk3Ir11UutqCitIJxMa9X%2F2QSA827c%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": 315892,
+      "title": "Creature Kitchen",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/3386418d1f2846730b7456c6cd4721df42597848/capsule_231x87.jpg?t=1778529608",
+      "steam_app_id": "3097300",
+      "cheapest_ever": 6.39,
+      "current": {
+        "date": "2026-05-20",
+        "price": 6.39,
+        "retail": 7.99,
+        "store_id": "1",
+        "deal_id": "pLlqkQRE1quT5HYqTgaJB7xRUQiyRkGmSuTDx9142BI%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 6.39
+        }
+      ]
+    },
+    {
       "id": 202350,
       "title": "Cyberpunk 2077",
       "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/590e0988a2fb79f44d3e31e41fd4949eb76abc41/capsule_231x87.jpg?t=1769690377",
@@ -48,13 +348,133 @@
         "date": "2026-05-20",
         "price": 20.99,
         "retail": 59.99,
-        "store_id": "7",
-        "deal_id": "KTOzm9HzGL%2FECX6QwgAdbEdqnw8fAWGTIfrly4J9Cfg%3D"
+        "store_id": "11",
+        "deal_id": "nL0Ha1MA6fsRIJ%2FHgfy6v1cFfdVeunYwSNCn2KnuS1M%3D"
       },
       "history": [
         {
           "date": "2026-05-20",
           "price": 20.99
+        }
+      ]
+    },
+    {
+      "id": 240701,
+      "title": "Dialtown: Phone Dating Sim",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1035990/capsule_231x87.jpg?t=1762878764",
+      "steam_app_id": "1035990",
+      "cheapest_ever": 5.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 7.99,
+        "retail": 7.99,
+        "store_id": "1",
+        "deal_id": "rJttxm%2FAYeCQDK8AWD2jxTvmmPQCfBBdr8f43%2F2oBac%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 7.99
+        }
+      ]
+    },
+    {
+      "id": 170108,
+      "title": "Dishonored Complete Collection",
+      "thumb": "https://images.greenmangaming.com/ac189c727a6841728b830a6cb60bc9e1/6d1f9fd5e59943f69f879bcbd27b0041.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 5.69,
+      "current": {
+        "date": "2026-05-20",
+        "price": 13.99,
+        "retail": 79.99,
+        "store_id": "15",
+        "deal_id": "lxRCDPReI%2BdYDptpnEhz0f1p7djisG75l9znZg6GkBk%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 13.99
+        }
+      ]
+    },
+    {
+      "id": 203618,
+      "title": "Don't Escape Trilogy",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1070550/capsule_231x87.jpg?t=1726580834",
+      "steam_app_id": "1070550",
+      "cheapest_ever": 1.24,
+      "current": {
+        "date": "2026-05-20",
+        "price": 1.24,
+        "retail": 4.99,
+        "store_id": "1",
+        "deal_id": "C0UP5MYsoAuDycEDHA1mToEfifnUxCemRVHsIzYPqsQ%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 1.24
+        }
+      ]
+    },
+    {
+      "id": 174472,
+      "title": "Dragon Ball Fighter Z  FighterZ Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/dragon-ball-fighterz-fighterz-edition/cover-180-0fe2cb.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 10.75,
+      "current": {
+        "date": "2026-05-20",
+        "price": 12.4,
+        "retail": 89.99,
+        "store_id": "27",
+        "deal_id": "92SQ6YGXvM24Gm5h%2FRWdlcLRV8G2OLDw7PJCjPr5v8A%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 12.4
+        }
+      ]
+    },
+    {
+      "id": 256277,
+      "title": "EA SPORTS PGA TOUR",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1677350/capsule_231x87.jpg?t=1777395708",
+      "steam_app_id": "1677350",
+      "cheapest_ever": 6.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 6.99,
+        "retail": 69.99,
+        "store_id": "25",
+        "deal_id": "d%2F76kKc8wzdFvnXE2GTj0ruDps28NPqKIfIvQ4AjZ8c%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": 256278,
+      "title": "EA SPORTS PGA TOUR Deluxe Edition",
+      "thumb": "https://cdn1.epicgames.com/offer/19d5458aa3c849a1b0fff69da4c9ed9d/EGS_EASPORTSPGATOURDeluxeEdition_ElectronicArtsTiburon_Editions_S2_1200x1600-ceccad47f83fc0ad333977ad854338e0",
+      "steam_app_id": null,
+      "cheapest_ever": 8.49,
+      "current": {
+        "date": "2026-05-20",
+        "price": 8.49,
+        "retail": 84.99,
+        "store_id": "25",
+        "deal_id": "LP38E%2B2cb%2FoH25XYKA8vb7HF2FKGDFoiFvgUaul9VCE%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 8.49
         }
       ]
     },
@@ -79,6 +499,206 @@
       ]
     },
     {
+      "id": 227763,
+      "title": "F.I.S.H.",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1572270/capsule_231x87.jpg?t=1678492398",
+      "steam_app_id": "1572270",
+      "cheapest_ever": 3.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 7.99,
+        "retail": 7.99,
+        "store_id": "1",
+        "deal_id": "FGIlhmCgzmqXL2oUhxDExvryvm0kM%2FjDc%2FaNIDJB0lU%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 7.99
+        }
+      ]
+    },
+    {
+      "id": 150308,
+      "title": "Factorio",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/427520/capsule_231x87.jpg?t=1763986204",
+      "steam_app_id": "427520",
+      "cheapest_ever": 19.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 35.0,
+        "retail": 35.0,
+        "store_id": "7",
+        "deal_id": "8vej58k0CtzasoIlGp2BMtWcH5oK2n%2BSgLAkzMCjXq0%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 35.0
+        }
+      ]
+    },
+    {
+      "id": 169242,
+      "title": "Far Cry 5 Gold Edition",
+      "thumb": "https://images.greenmangaming.com/343728a3ccce4911b335aad397b6cae3/a3b2074aa80e4e81b525aa0ec4a3acdc.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 8.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 12.15,
+        "retail": 89.99,
+        "store_id": "3",
+        "deal_id": "vOuwU%2FhMPZN4mdwmHf6bhce%2Fme1p5slBPbAD2K%2BJ2E4%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 12.15
+        }
+      ]
+    },
+    {
+      "id": 221822,
+      "title": "Far Cry New Dawn Complete Bundle",
+      "thumb": "https://images.greenmangaming.com/3fb6c037bbc443f294190401869d8253/a60ab0fa061041bda671b6b879657666.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 12.9,
+      "current": {
+        "date": "2026-05-20",
+        "price": 13.5,
+        "retail": 99.99,
+        "store_id": "3",
+        "deal_id": "Br%2FzRC0uYWamO77o8Kj2mOJksxJSUpy2%2FPciTnOXEZk%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 13.5
+        }
+      ]
+    },
+    {
+      "id": 221823,
+      "title": "Far Cry New Dawn Ultimate Bundle",
+      "thumb": "https://images.greenmangaming.com/f96a0c07660448b5ba49e251f8ffab4b/16ed496a06bd4a6c915cc367e329824b.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 16.38,
+      "current": {
+        "date": "2026-05-20",
+        "price": 17.55,
+        "retail": 129.99,
+        "store_id": "3",
+        "deal_id": "BfyLP1SjMhSfo62%2FNBNSTyxnUPX6%2BnGYK990MAiT57s%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 17.55
+        }
+      ]
+    },
+    {
+      "id": 190053,
+      "title": "Flowers -Le volume sur ete-",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/858940/capsule_231x87.jpg?t=1759495880",
+      "steam_app_id": "858940",
+      "cheapest_ever": 11.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 19.99,
+        "retail": 19.99,
+        "store_id": "1",
+        "deal_id": "ZgoqPtgP5zGBkl5aHE3xe8XQ%2Bb87Heiszs%2B3Xe7Qlcc%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 19.99
+        }
+      ]
+    },
+    {
+      "id": 283720,
+      "title": "FOR HONOR Year 8 Ultimate Edition",
+      "thumb": "https://images.greenmangaming.com/f6af9f2dcf394f3baed307615e8e8434/9e90ef09574d4bd092fdd998007a444b.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 8.1,
+      "current": {
+        "date": "2026-05-20",
+        "price": 12.15,
+        "retail": 89.99,
+        "store_id": "3",
+        "deal_id": "A0QUHtGGNO5NytSKMyCl7MJpCzNxW5tb88LR%2FAAkzEM%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 12.15
+        }
+      ]
+    },
+    {
+      "id": 317684,
+      "title": "Funi Raccoon Game",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3599690/1c66aeafc9af8b1ef972b5cca77e9bbf408b4783/capsule_231x87.jpg?t=1778529129",
+      "steam_app_id": "3599690",
+      "cheapest_ever": 10.79,
+      "current": {
+        "date": "2026-05-20",
+        "price": 11.99,
+        "retail": 11.99,
+        "store_id": "1",
+        "deal_id": "yxWaVk%2BSesw10K%2BWu1QYIKb7Vd202MRVvEpEXF%2BNWi0%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 11.99
+        }
+      ]
+    },
+    {
+      "id": 246054,
+      "title": "Gotham Knights Deluxe Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/gotham-knights-deluxe-edition/cover-180-e1de87.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 9.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 14.28,
+        "retail": 79.99,
+        "store_id": "30",
+        "deal_id": "FRCNVH1Fj2qa%2FItuKV8r1TnPim9ri5srv8m%2BZLEcyZE%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 14.28
+        }
+      ]
+    },
+    {
+      "id": 246047,
+      "title": "Gotham Knights: Deluxe",
+      "thumb": "https://cdn.fanatical.com/production/product/400x225/f5a4b0d0-e174-4426-bbbc-a7f8444639c9.jpeg",
+      "steam_app_id": null,
+      "cheapest_ever": 9.97,
+      "current": {
+        "date": "2026-05-20",
+        "price": 14.99,
+        "retail": 79.99,
+        "store_id": "27",
+        "deal_id": "ND4fTq8f%2B5kNFMbs7or8J9kpXuNLYqgwSLE5%2BPthHeU%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 14.99
+        }
+      ]
+    },
+    {
       "id": 196149,
       "title": "Hades",
       "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145360/capsule_231x87.jpg?t=1758127023",
@@ -95,6 +715,86 @@
         {
           "date": "2026-05-20",
           "price": 24.99
+        }
+      ]
+    },
+    {
+      "id": 251471,
+      "title": "her tears were my light",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2112520/capsule_231x87.jpg?t=1748277818",
+      "steam_app_id": "2112520",
+      "cheapest_ever": 2.09,
+      "current": {
+        "date": "2026-05-20",
+        "price": 2.99,
+        "retail": 2.99,
+        "store_id": "1",
+        "deal_id": "aVuqFyUJdTFXIzyT3QhHOqIvKZo3iDIOUpan8BPU9Tc%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 2.99
+        }
+      ]
+    },
+    {
+      "id": 117516,
+      "title": "Hidden in Plain Sight",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/303590/capsule_231x87.jpg?t=1766704105",
+      "steam_app_id": "303590",
+      "cheapest_ever": 0.59,
+      "current": {
+        "date": "2026-05-20",
+        "price": 5.99,
+        "retail": 5.99,
+        "store_id": "1",
+        "deal_id": "fMkTNGjXYaeuXPsaKJcdb%2BIX9LALLYZF2GOxWRr6pgE%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 5.99
+        }
+      ]
+    },
+    {
+      "id": 250309,
+      "title": "Hogwarts Legacy: Deluxe Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/hogwarts-legacy-deluxe-edition/cover-180-5788a0.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 5.95,
+      "current": {
+        "date": "2026-05-20",
+        "price": 9.39,
+        "retail": 69.99,
+        "store_id": "30",
+        "deal_id": "OdeM7qNg%2BMU8PRSFbbLMRYEP33iCTpZ%2BoG1PLLyuG%2Bw%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 9.39
+        }
+      ]
+    },
+    {
+      "id": 250301,
+      "title": "Hogwarts Legacy: Digital Deluxe Edition",
+      "thumb": "https://cdn.fanatical.com/production/product/400x225/84c9abcd-0085-40bf-bb00-c3ff9b423e4a.jpeg",
+      "steam_app_id": null,
+      "cheapest_ever": 5.88,
+      "current": {
+        "date": "2026-05-20",
+        "price": 9.79,
+        "retail": 69.99,
+        "store_id": "15",
+        "deal_id": "UNllTwkANJL%2FohvtYa0cdfABtUAfwlNjCySSPxaUtu8%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 9.79
         }
       ]
     },
@@ -119,6 +819,366 @@
       ]
     },
     {
+      "id": 269918,
+      "title": "Immortals of Aveum Deluxe Edition",
+      "thumb": "https://cdn1.epicgames.com/offer/33a47f9b76374045b7da20af80c40aa1/EGS_ImmortalsofAveumDeluxeEdition_AscendantStudios_Editions_S2_1200x1600-7457dd5d665aafef1e9306a8da24d4bd",
+      "steam_app_id": null,
+      "cheapest_ever": 4.89,
+      "current": {
+        "date": "2026-05-20",
+        "price": 6.99,
+        "retail": 69.99,
+        "store_id": "25",
+        "deal_id": "Go76Xfz1d6FYF1CeZfy0FHKlMoW029FzeEims4aB60Q%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": 303858,
+      "title": "Kabuto Park",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3376990/46fc170c99b88a84a6125c2110391f4a9c6108b2/capsule_231x87.jpg?t=1777577757",
+      "steam_app_id": "3376990",
+      "cheapest_ever": 3.49,
+      "current": {
+        "date": "2026-05-20",
+        "price": 4.99,
+        "retail": 4.99,
+        "store_id": "1",
+        "deal_id": "8vegY2pW8HulEHoCAF03xpcBvWcTcbsRLWel9lk8kQw%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": 308292,
+      "title": "MAHOUTEQ!",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3793580/1d4e5365e4c83e2dfa64aac9aa22c0924378b632/capsule_231x87.jpg?t=1775398551",
+      "steam_app_id": "3793580",
+      "cheapest_ever": 1.19,
+      "current": {
+        "date": "2026-05-20",
+        "price": 1.99,
+        "retail": 1.99,
+        "store_id": "1",
+        "deal_id": "VLdnKp9vbcz9x7kbZuxnIaTtxGe8O30uykfiJGdm5RY%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": 247685,
+      "title": "Marvels Midnight Suns Digital Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/marvels-midnight-suns-digitalplus-edition-steam/cover-180-1a15a6.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 13.4,
+      "current": {
+        "date": "2026-05-20",
+        "price": 13.99,
+        "retail": 79.99,
+        "store_id": "15",
+        "deal_id": "ahO2JRlmtZiBEzM36%2FJG%2BJPtAojlU9TrGzMbW2sxkt0%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 13.99
+        }
+      ]
+    },
+    {
+      "id": 109746,
+      "title": "Metro 2033 Redux",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/286690/capsule_231x87.jpg?t=1741110084",
+      "steam_app_id": "286690",
+      "cheapest_ever": 1.59,
+      "current": {
+        "date": "2026-05-20",
+        "price": 1.99,
+        "retail": 19.99,
+        "store_id": "11",
+        "deal_id": "4N8lwdp8b3fG3Qg1qY2nABPCJ8rgTczjiXluOg3TPBk%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 1.99
+        }
+      ]
+    },
+    {
+      "id": 259437,
+      "title": "Moonleap",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2166050/capsule_231x87.jpg?t=1715915858",
+      "steam_app_id": "2166050",
+      "cheapest_ever": 3.59,
+      "current": {
+        "date": "2026-05-20",
+        "price": 8.99,
+        "retail": 8.99,
+        "store_id": "1",
+        "deal_id": "JAnglKHfJxMj68apr%2BVc9lmxCCjUAe7Rv%2BUjq30%2BgtY%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 8.99
+        }
+      ]
+    },
+    {
+      "id": 252354,
+      "title": "Moss: Book II",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2059670/capsule_231x87.jpg?t=1766074520",
+      "steam_app_id": "2059670",
+      "cheapest_ever": 9.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 9.99,
+        "retail": 19.99,
+        "store_id": "1",
+        "deal_id": "B7ZtfOKkUxqvug9eCHi8PKvYcVxnH6o8t9ZZt%2BtLY54%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": 305539,
+      "title": "NBA 2K26",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3472040/8496e0023f3b24c9bf87e1459cb9651f5a7a6732/capsule_231x87_alt_assets_5.jpg?t=1778857348",
+      "steam_app_id": "3472040",
+      "cheapest_ever": 8.74,
+      "current": {
+        "date": "2026-05-20",
+        "price": 8.74,
+        "retail": 69.99,
+        "store_id": "15",
+        "deal_id": "QpwVjdTcAFv7i8J9WlkVEIVwJElYPMVxO9D9ByluH%2BU%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 8.74
+        }
+      ]
+    },
+    {
+      "id": 229470,
+      "title": "Neverwinter Nights: Enhanced Edition Digital Deluxe Edition",
+      "thumb": "https://images.gog-statics.com/3835cdf37b0927a05d44a7a7972d6828345afbc04f270914ab361350cbc2ad2d_product_tile_117h.webp",
+      "steam_app_id": null,
+      "cheapest_ever": 6.82,
+      "current": {
+        "date": "2026-05-20",
+        "price": 6.85,
+        "retail": 68.29,
+        "store_id": "7",
+        "deal_id": "V%2BClsNbtpiiHQeErZc4IbgBoXbaCkNVcreabZQ9R3T0%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 6.85
+        }
+      ]
+    },
+    {
+      "id": 171780,
+      "title": "Ni no Kuni II: Revenant Kingdom - The Prince's Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/ni-no-kunitm-ii-revenant-kingdom-the-princes-edition/cover-180-b6d878.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 9.35,
+      "current": {
+        "date": "2026-05-20",
+        "price": 10.37,
+        "retail": 79.98,
+        "store_id": "27",
+        "deal_id": "LiMSqxt11RNPWRYjNLaI9o4gGviVZxA1gFRXZHdaXMg%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 10.37
+        }
+      ]
+    },
+    {
+      "id": 157072,
+      "title": "ONE PIECE BURNING BLOOD GOLD EDITION",
+      "thumb": "https://sttc.gamersgate.com/images/product/one-piece-burning-blood-gold-edition/cover-180-1732a9.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 6.27,
+      "current": {
+        "date": "2026-05-20",
+        "price": 7.83,
+        "retail": 74.98,
+        "store_id": "27",
+        "deal_id": "sO70XwHpkA1x9zU9DsM%2BZZK2y1FqAKKJjb%2FV4RZyHCQ%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 7.83
+        }
+      ]
+    },
+    {
+      "id": 198716,
+      "title": "ONE PIECE World Seeker Deluxe Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/one-piece-world-seeker-deluxe-edition/cover-180-75a5b1.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 7.11,
+      "current": {
+        "date": "2026-05-20",
+        "price": 7.83,
+        "retail": 89.99,
+        "store_id": "27",
+        "deal_id": "GNSJ6dbZbywWmATCo05yDhp1blGAr8g0CUAKcYgWnGA%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 7.83
+        }
+      ]
+    },
+    {
+      "id": 210040,
+      "title": "One Punch Man: A Hero Nobody Knows Deluxe Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/one-punch-man-a-hero-nobody-knows-deluxe-edition/cover-180-0c33a4.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 5.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 6.99,
+        "retail": 79.99,
+        "store_id": "27",
+        "deal_id": "FxJGIbeyeOrLnV9Y4R%2BZU4S2GRfQV8P2ZzUxekn7szM%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": 259057,
+      "title": "Papas Freezeria Deluxe",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2291760/capsule_231x87.jpg?t=1700157490",
+      "steam_app_id": "2291760",
+      "cheapest_ever": 4.49,
+      "current": {
+        "date": "2026-05-20",
+        "price": 5.99,
+        "retail": 5.99,
+        "store_id": "1",
+        "deal_id": "KiA2blorHbgxdnyR3UdtGy7qzygy9y12dQ2kgDKSdGc%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 5.99
+        }
+      ]
+    },
+    {
+      "id": 242613,
+      "title": "Patricks Parabox",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1260520/capsule_231x87.jpg?t=1745611653",
+      "steam_app_id": "1260520",
+      "cheapest_ever": 9.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 19.99,
+        "retail": 19.99,
+        "store_id": "1",
+        "deal_id": "wBSRFS0p8qBeOIKPc9dP1xvnb4Q6dQWXk8sGfa0se6g%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 19.99
+        }
+      ]
+    },
+    {
+      "id": 203431,
+      "title": "People Playground",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1118200/capsule_231x87.jpg?t=1776802758",
+      "steam_app_id": "1118200",
+      "cheapest_ever": 0.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 0.99,
+        "retail": 9.99,
+        "store_id": "7",
+        "deal_id": "e%2BEBeLI9WGxyeYAhXoMMASHActWqqpMCDv2c1dMvaIQ%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 0.99
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Portal 2",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/620/capsule_231x87.jpg?t=1745363004",
+      "steam_app_id": "620",
+      "cheapest_ever": 0.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 9.99,
+        "retail": 9.99,
+        "store_id": "1",
+        "deal_id": "rwQ2JCEr5NOySyBsAj6fyPuZg4qMlh9w67U%2BmM6b2VE%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": 322672,
+      "title": "RAVEN2 Half anniversary Starter Pack",
+      "thumb": "https://cdn1.epicgames.com/spt-assets/b5a63290fb914349b2c6506a9b5619eb/raven2-70aye.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 0.0,
+      "current": {
+        "date": "2026-05-20",
+        "price": 0.0,
+        "retail": 69.99,
+        "store_id": "25",
+        "deal_id": "x8bu%2Bj%2BU0BedyBq04YtFGW%2BtW7TOdNYGp628gWMVceE%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 0.0
+        }
+      ]
+    },
+    {
       "id": 206516,
       "title": "Red Dead Redemption 2",
       "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/capsule_231x87.jpg?t=1759502961",
@@ -128,13 +1188,153 @@
         "date": "2026-05-20",
         "price": 14.99,
         "retail": 59.99,
-        "store_id": "11",
-        "deal_id": "mR742Y4c1gIWmd6swzFlwkJkE8gYHgTwTf2J91%2FJ5fs%3D"
+        "store_id": "1",
+        "deal_id": "cQN5SQRQu7X7qpiZ6H%2Fp4aRdfn6cj3A9vp%2BdJmvABjk%3D"
       },
       "history": [
         {
           "date": "2026-05-20",
           "price": 14.99
+        }
+      ]
+    },
+    {
+      "id": 233561,
+      "title": "Rims Racing : Ultimate Edition",
+      "thumb": "https://images.greenmangaming.com/e1cdac10807b4dd78337834ab4ca1837/a21ed18dfb334b8481276f4d5a4a538b.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 5.56,
+      "current": {
+        "date": "2026-05-20",
+        "price": 5.9,
+        "retail": 69.51,
+        "store_id": "15",
+        "deal_id": "gLLhgkZMQCuLr8dQyDKq3a71LAK8fXViVwc5oNbLhsY%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 5.9
+        }
+      ]
+    },
+    {
+      "id": 227495,
+      "title": "SCARLET NEXUS Deluxe Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/scarlet-nexus-deluxe/cover-180-b1cf17.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 9.47,
+      "current": {
+        "date": "2026-05-20",
+        "price": 10.37,
+        "retail": 79.99,
+        "store_id": "27",
+        "deal_id": "KKwQ6766FtagX2nPLLoyc%2FpWQ9Qv2TKRK%2F52mxgXxEw%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 10.37
+        }
+      ]
+    },
+    {
+      "id": 237437,
+      "title": "SCARLET NEXUS Ultimate Edition",
+      "thumb": "https://images.greenmangaming.com/ce77d02334d0460da2c70207fe3e9a2a/ee7127ac849d40a4979a0437bc9f2b23.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 12.35,
+      "current": {
+        "date": "2026-05-20",
+        "price": 12.91,
+        "retail": 99.99,
+        "store_id": "27",
+        "deal_id": "k8EVYfEYyJxTvKSpVo2TIsZtBdwMhq8Fhtj0a5%2BxRn8%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 12.91
+        }
+      ]
+    },
+    {
+      "id": 242766,
+      "title": "Seal World",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1684410/capsule_231x87.jpg?t=1762577901",
+      "steam_app_id": "1684410",
+      "cheapest_ever": 1.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 3.99,
+        "retail": 4.99,
+        "store_id": "1",
+        "deal_id": "uTIhnAGRxywspW0oazv2GgBy9%2BNG9ISJLhHeoqt4%2FhU%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": 261096,
+      "title": "Secret Doctrine",
+      "thumb": "https://cdn1.epicgames.com/spt-assets/c77de8d27b034c3f9417dc1b25292999/secret-doctrine-biyyb.png",
+      "steam_app_id": null,
+      "cheapest_ever": 2.29,
+      "current": {
+        "date": "2026-05-20",
+        "price": 9.99,
+        "retail": 99.99,
+        "store_id": "25",
+        "deal_id": "MKlJV9xijYKIwajbnA%2FDSSzrWmgE0ZXJItRZ63MdPDg%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": 264361,
+      "title": "Smushi Come Home",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1740300/capsule_231x87.jpg?t=1750949828",
+      "steam_app_id": "1740300",
+      "cheapest_ever": 9.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 19.99,
+        "retail": 19.99,
+        "store_id": "1",
+        "deal_id": "5nkoVTtR6a%2FqSZ15tv%2FMUnyQJsYG%2FxKRmkTQ5%2FX58P0%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 19.99
+        }
+      ]
+    },
+    {
+      "id": 191458,
+      "title": "SOULCALIBUR VI Deluxe Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/soulcalibur-vi-deluxe-edition/cover-180-b25d00.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 11.28,
+      "current": {
+        "date": "2026-05-20",
+        "price": 12.4,
+        "retail": 89.99,
+        "store_id": "27",
+        "deal_id": "Cav6oKlj%2BL5I8FselmT5V1OkRcWjeLDP3fiAPAFgTt8%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 12.4
         }
       ]
     },
@@ -159,6 +1359,266 @@
       ]
     },
     {
+      "id": 306791,
+      "title": "Strange Jigsaws",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2702170/f983f1d7697648e90c072463f1a995e6c772c042/capsule_231x87.jpg?t=1770906631",
+      "steam_app_id": "2702170",
+      "cheapest_ever": 3.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 4.99,
+        "retail": 4.99,
+        "store_id": "1",
+        "deal_id": "eP%2Bh9URkubDq8iz%2B93RdG6VPe51OlwUxmn8V%2BWx1YFg%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": 273928,
+      "title": "Suicide Squad: Kill the Justice League",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/315210/capsule_231x87.jpg?t=1777940046",
+      "steam_app_id": "315210",
+      "cheapest_ever": 1.23,
+      "current": {
+        "date": "2026-05-20",
+        "price": 3.08,
+        "retail": 69.99,
+        "store_id": "30",
+        "deal_id": "nF9%2FdPXYPajMwowT9vhxtb%2BbzqK%2FsuFSBFt5snmLx24%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 3.08
+        }
+      ]
+    },
+    {
+      "id": 278533,
+      "title": "Suicide Squad: Kill the Justice League - Digital Deluxe Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/suicide-squad-kill-the-justice-league-digital-deluxe-edition/cover-180-c29cf2.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 1.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 4.38,
+        "retail": 99.99,
+        "store_id": "30",
+        "deal_id": "U2ne5odE6WKyoSROQN8D2OX2aRN8CJrxoFxZ%2BktLaHg%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 4.38
+        }
+      ]
+    },
+    {
+      "id": 301933,
+      "title": "Sunderfolk",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2414270/60c0c3f09f2e84a5b66b31faf8e488fbf1890480/capsule_231x87.jpg?t=1773940416",
+      "steam_app_id": "2414270",
+      "cheapest_ever": 0.0,
+      "current": {
+        "date": "2026-05-20",
+        "price": 0.0,
+        "retail": 49.99,
+        "store_id": "25",
+        "deal_id": "C5QpU2wB0LJGRegXgpnA6MANIOpLL8HuNKpp%2BQ%2FUC8s%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 0.0
+        }
+      ]
+    },
+    {
+      "id": 254954,
+      "title": "Super Lesbian Animal RPG",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124380/capsule_231x87.jpg?t=1687985253",
+      "steam_app_id": "2124380",
+      "cheapest_ever": 8.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 14.99,
+        "retail": 14.99,
+        "store_id": "1",
+        "deal_id": "Ua6LJgk3xpV9tfEwg8Fx%2BoOS%2F6IYLw49GzbBXQLi6b4%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 14.99
+        }
+      ]
+    },
+    {
+      "id": 291857,
+      "title": "SYNDUALITY: Echo of Ada Deluxe Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/synduality-echo-of-ada-deluxe-edition/cover-180-4acb62.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 6.14,
+      "current": {
+        "date": "2026-05-20",
+        "price": 6.14,
+        "retail": 69.99,
+        "store_id": "27",
+        "deal_id": "0u0rE1jh3xf1ZWqOiUtoEHK13TJDDUW%2BheQieqn%2F4Yk%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 6.14
+        }
+      ]
+    },
+    {
+      "id": 291858,
+      "title": "SYNDUALITY: Echo of Ada Ultimate Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/synduality-echo-of-ada-ultimate-edition/cover-180-2a0e37.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 8.68,
+      "current": {
+        "date": "2026-05-20",
+        "price": 8.68,
+        "retail": 99.99,
+        "store_id": "27",
+        "deal_id": "4bi0xPGsE3hMrUaOxuqk%2FWLEm2McwYYd%2B2l2Wz4FRlw%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 8.68
+        }
+      ]
+    },
+    {
+      "id": 306591,
+      "title": "Tall Trails",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2393760/4379a6b66a33151fe4ce418cafef90e5c4d12134/capsule_231x87.jpg?t=1778172834",
+      "steam_app_id": "2393760",
+      "cheapest_ever": 6.49,
+      "current": {
+        "date": "2026-05-20",
+        "price": 6.49,
+        "retail": 9.99,
+        "store_id": "1",
+        "deal_id": "qWh0ovhDAITSLXyMbWIRPI3IGbaIOrzCrZDtpaBHXLI%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 6.49
+        }
+      ]
+    },
+    {
+      "id": 237594,
+      "title": "TEKKEN 7 - Definitive Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/tekken-7-definitive-edition/cover-180-f0adc6.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 8.79,
+      "current": {
+        "date": "2026-05-20",
+        "price": 14.18,
+        "retail": 109.99,
+        "store_id": "27",
+        "deal_id": "xyH30hHxgsNhK8NDWA2uSWW%2BoPGrKC6gMFfQsVB%2BHpQ%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 14.18
+        }
+      ]
+    },
+    {
+      "id": 237593,
+      "title": "TEKKEN 7 - Originals Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/tekken-7-originals-edition/cover-180-80f2e1.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 7.87,
+      "current": {
+        "date": "2026-05-20",
+        "price": 11.64,
+        "retail": 89.99,
+        "store_id": "27",
+        "deal_id": "RKpDfTkja6hvA%2FotuH6FnIuUEk4BtZDwGm0DJ2xsyss%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 11.64
+        }
+      ]
+    },
+    {
+      "id": 165849,
+      "title": "The Incredible Adventures of Van Helsing Anthology",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/subs/75825/capsule_231x87.jpg?t=1705948029",
+      "steam_app_id": "75825",
+      "cheapest_ever": 2.81,
+      "current": {
+        "date": "2026-05-20",
+        "price": 7.5,
+        "retail": 74.99,
+        "store_id": "2",
+        "deal_id": "UsyUd%2F5VFScDiQul3Y7qU7Zz%2BN9Ljqck3lJuldY20bw%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 7.5
+        }
+      ]
+    },
+    {
+      "id": 294665,
+      "title": "The LEGO Games Bundle",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/subs/466140/capsule_231x87.jpg?t=1773438562",
+      "steam_app_id": "466140",
+      "cheapest_ever": 12.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 12.99,
+        "retail": 99.99,
+        "store_id": "7",
+        "deal_id": "lx1Ldqb2ETEm0PJHIwoF8aVhlAvtMNpyHN%2B3M64aUek%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 12.99
+        }
+      ]
+    },
+    {
+      "id": 242352,
+      "title": "The Upturned",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1717770/capsule_231x87.jpg?t=1654213919",
+      "steam_app_id": "1717770",
+      "cheapest_ever": 5.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 9.99,
+        "retail": 9.99,
+        "store_id": "1",
+        "deal_id": "bBI7Megv20xl%2BHqBMLDV8E%2FzRtQllAv4VmEHnsVqkmo%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 9.99
+        }
+      ]
+    },
+    {
       "id": 112330,
       "title": "The Witcher 3: Wild Hunt",
       "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/292030/abf6e7b3b01ed20c35a8dc0a009a8f9fc3e57b93/capsule_231x87.jpg?t=1768303991",
@@ -175,6 +1635,186 @@
         {
           "date": "2026-05-20",
           "price": 7.99
+        }
+      ]
+    },
+    {
+      "id": 234418,
+      "title": "Tiny Tinas Wonderlands: Chaotic Great Edition",
+      "thumb": "https://sttc.gamersgate.com/images/product/tiny-tinas-wonderlands-chaotic-great-edition-steam/cover-180-f31516.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 13.11,
+      "current": {
+        "date": "2026-05-20",
+        "price": 13.99,
+        "retail": 79.95,
+        "store_id": "15",
+        "deal_id": "XOgZtvLapt8lNj7F96iHckwLtPbazmH9aKH0MsznZo8%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 13.99
+        }
+      ]
+    },
+    {
+      "id": 234052,
+      "title": "TOEM",
+      "thumb": "https://images.gog-statics.com/ec2493f50e8945e04ccf2f5708fced7bd38606cc47bc68ced58d410fff21b120_product_tile_117h.webp",
+      "steam_app_id": null,
+      "cheapest_ever": 3.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 19.99,
+        "retail": 19.99,
+        "store_id": "30",
+        "deal_id": "moG%2BDvkGGRe5aeOmBMSXl8JfwO945k9RfQapWUBWgE0%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 19.99
+        }
+      ]
+    },
+    {
+      "id": 283205,
+      "title": "TOEM: A Photo Adventure",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1307580/9d5bbbd1c9343d02bd94a48c1be786d4320d5dc8/capsule_231x87_alt_assets_0.jpg?t=1777555928",
+      "steam_app_id": "1307580",
+      "cheapest_ever": 1.99,
+      "current": {
+        "date": "2026-05-20",
+        "price": 3.39,
+        "retail": 19.99,
+        "store_id": "15",
+        "deal_id": "vJga85oVNhBmjluMqJ9XlAENgw5EdAQbsTU63q9%2FDxw%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 3.39
+        }
+      ]
+    },
+    {
+      "id": 191972,
+      "title": "V-Rally 4 Ultimate Edition",
+      "thumb": "https://www.wingamestore.com/images_boxshots/master/v-rally-4-ultimate-edition-1549767297.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 5.85,
+      "current": {
+        "date": "2026-05-20",
+        "price": 6.99,
+        "retail": 69.99,
+        "store_id": "21",
+        "deal_id": "q1ag%2ByKTbCANc8AuW2iUPTigsjuwwjAqaSK974j0wmQ%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": 238605,
+      "title": "Vampire Survivors",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1794680/capsule_231x87.jpg?t=1778864981",
+      "steam_app_id": "1794680",
+      "cheapest_ever": 0.0,
+      "current": {
+        "date": "2026-05-20",
+        "price": 4.99,
+        "retail": 4.99,
+        "store_id": "25",
+        "deal_id": "mg8TDVBZG8SZ%2B8mEAdjVvPB4fARKxYPa3bicl1Ob3QE%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": 236635,
+      "title": "Watch Dogs Legion - Deluxe Edition (Ubisoft)",
+      "thumb": "https://images.greenmangaming.com/46007fba10c644f9a0e9a5592d693710/13bd0413ba074dd280e0451165f7e48e.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 6.3,
+      "current": {
+        "date": "2026-05-20",
+        "price": 9.45,
+        "retail": 69.99,
+        "store_id": "3",
+        "deal_id": "0lF%2BFktIUm7kcxRmUBoLBcTOwImEZX34GBDiw6vGI8w%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 9.45
+        }
+      ]
+    },
+    {
+      "id": 153679,
+      "title": "Watch_Dogs 2 Gold Edition",
+      "thumb": "https://images.greenmangaming.com/b862c5cae355443f879809fc20eec404/e1d34e22dd2e4d3196a8e0c77b07c778.jpg",
+      "steam_app_id": null,
+      "cheapest_ever": 7.2,
+      "current": {
+        "date": "2026-05-20",
+        "price": 10.8,
+        "retail": 79.99,
+        "store_id": "3",
+        "deal_id": "yWC3u%2F4NAUAHNPA%2FSt3cyl4oFeF9qgFlY%2Blb9aVZzC8%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 10.8
+        }
+      ]
+    },
+    {
+      "id": 254394,
+      "title": "WILD HEARTS Karakuri Edition",
+      "thumb": "https://cdn1.epicgames.com/offer/4cbfe407ada24702a556b6e4d28a8800/EGS_WILDHEARTSKarakuriEdition_KOEITECMOGAMESCOLTD_Editions_S2_1200x1600-61bac598162764934f1866a0a207594a",
+      "steam_app_id": null,
+      "cheapest_ever": 6.29,
+      "current": {
+        "date": "2026-05-20",
+        "price": 8.99,
+        "retail": 89.99,
+        "store_id": "25",
+        "deal_id": "x9mjvQ1tv3Jl4xWaYJM0fFxf1kn0t2nPZmcaQnEx9Q8%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 8.99
+        }
+      ]
+    },
+    {
+      "id": 257291,
+      "title": "WILD HEARTS Standard Edition",
+      "thumb": "https://cdn1.epicgames.com/offer/4cbfe407ada24702a556b6e4d28a8800/EGS_WILDHEARTSStandardEdition_KOEITECMOGAMESCOLTD_S2_1200x1600-398fdb8dbc918051f99347ebe0335973",
+      "steam_app_id": null,
+      "cheapest_ever": 4.89,
+      "current": {
+        "date": "2026-05-20",
+        "price": 6.99,
+        "retail": 69.99,
+        "store_id": "25",
+        "deal_id": "sd99iVUAHrkuyjiMCNytra%2Bbgh056rtQDXhJqeMc9CM%3D"
+      },
+      "history": [
+        {
+          "date": "2026-05-20",
+          "price": 6.99
         }
       ]
     }

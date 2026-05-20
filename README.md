@@ -33,8 +33,8 @@ The site goes live at `https://<username>.github.io/<repo>/`.
 
 ## Day-to-day
 
-- Edit `watchlist.json` to choose which games to track (matched by title).
-- That's it — it collects prices on its own every day.
+- Nothing required — the tracker auto-discovers the top trending deals daily.
+- Optional: pin always-tracked favourites by adding titles to `watchlist.json`.
 
 ## Run locally
 

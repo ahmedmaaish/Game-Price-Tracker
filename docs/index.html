@@ -58,6 +58,11 @@ body{
   font-size:.84rem;font-family:inherit;transition:.15s;}
 .sort:hover{color:var(--text);border-color:var(--muted);}
 .sort.on{background:var(--accent);color:#06210f;border-color:var(--accent);font-weight:700;}
+.search{background:rgba(255,255,255,.045);border:1px solid var(--line);
+  color:var(--text);padding:8px 16px;border-radius:999px;font-size:.84rem;
+  font-family:inherit;min-width:210px;outline:none;}
+.search:focus{border-color:var(--accent);}
+.search::placeholder{color:var(--muted);}
 
 /* grid + cards */
 .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
@@ -133,6 +138,7 @@ dialog::backdrop{background:rgba(5,6,10,.78);}
 
 <main>
   <div class="toolbar" id="toolbar">
+    <input class="search" id="search" type="search" placeholder="Search games…" aria-label="Search games">
     <button class="sort on" data-sort="discount">Biggest discount</button>
     <button class="sort" data-sort="price">Lowest price</button>
     <button class="sort" data-sort="name">Name</button>
@@ -163,7 +169,7 @@ dialog::backdrop{background:rgba(5,6,10,.78);}
 // To earn affiliate commission, replace this with your own store affiliate
 // links once you've joined the store programs (Fanatical, GMG, Humble, etc.).
 const REDIRECT = "https://www.cheapshark.com/redirect?dealID=";
-let DATA = null, stores = {}, chart = null, sortMode = "discount";
+let DATA = null, stores = {}, chart = null, sortMode = "discount", searchTerm = "";
 
 const money = n => (n == null ? "—" : "$" + Number(n).toFixed(2));
 const esc = s => String(s).replace(/[&<>"]/g,
@@ -203,7 +209,7 @@ function makeCard(g, i){
   const c = g.current, disc = discount(g), low = isLowest(g);
   const el = document.createElement("article");
   el.className = "card";
-  el.style.animationDelay = (i * 55) + "ms";
+  el.style.animationDelay = (Math.min(i, 14) * 45) + "ms";
   const badges =
     (disc > 0 ? `<span class="badge disc ${disc>=50?"hot":""}">−${disc}%</span>` : "") +
     (low ? `<span class="badge low">★ LOWEST EVER</span>` : "");
@@ -246,9 +252,13 @@ function sortGames(list){
 function render(){
   const grid = document.getElementById("grid");
   grid.innerHTML = "";
-  const games = DATA.games || [];
+  let games = DATA.games || [];
+  if(searchTerm)
+    games = games.filter(g => g.title.toLowerCase().includes(searchTerm));
   if(!games.length){
-    grid.innerHTML = '<p class="empty">No games tracked yet &mdash; add titles to watchlist.json.</p>';
+    grid.innerHTML = '<p class="empty">' +
+      (searchTerm ? "No games match your search."
+                  : "No games yet — the tracker runs daily.") + '</p>';
     return;
   }
   sortGames(games).forEach((g,i) => grid.appendChild(makeCard(g,i)));
@@ -313,6 +323,10 @@ document.getElementById("toolbar").addEventListener("click", e => {
   document.querySelectorAll(".sort").forEach(s => s.classList.remove("on"));
   b.classList.add("on");
   sortMode = b.dataset.sort;
+  render();
+});
+document.getElementById("search").addEventListener("input", e => {
+  searchTerm = e.target.value.trim().toLowerCase();
   render();
 });
 
