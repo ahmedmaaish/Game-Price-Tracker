@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-20T16:38:17+00:00",
+  "updated_at": "2026-05-20T17:01:28+00:00",
   "stores": {
     "1": "Steam",
     "2": "GamersGate",
@@ -27,6 +27,7 @@
       "current": {
         "date": "2026-05-20",
         "price": 59.99,
+        "retail": 59.99,
         "store_id": "7",
         "deal_id": "KR6JzYIE5jQz4X%2FqfqZL7uqeWAALnY%2Beipr2lwHIFGI%3D"
       },
@@ -46,6 +47,7 @@
       "current": {
         "date": "2026-05-20",
         "price": 20.99,
+        "retail": 59.99,
         "store_id": "7",
         "deal_id": "KTOzm9HzGL%2FECX6QwgAdbEdqnw8fAWGTIfrly4J9Cfg%3D"
       },
@@ -65,6 +67,7 @@
       "current": {
         "date": "2026-05-20",
         "price": 44.99,
+        "retail": 59.99,
         "store_id": "23",
         "deal_id": "0yH%2B27fnkwwPMEtLKiv52IGhamBesRW%2F9Ictx3%2B%2B2t0%3D"
       },
@@ -84,6 +87,7 @@
       "current": {
         "date": "2026-05-20",
         "price": 24.99,
+        "retail": 24.99,
         "store_id": "1",
         "deal_id": "%2FRRvRbW4trH2Me4HcfUIFk5pCGamwlMuyid9ZTDJ4do%3D"
       },
@@ -103,6 +107,7 @@
       "current": {
         "date": "2026-05-20",
         "price": 7.49,
+        "retail": 14.99,
         "store_id": "11",
         "deal_id": "rmecI07YNZZyob1X1p2pGavwnQgzopI5i9RzJ2dWYgA%3D"
       },
@@ -122,6 +127,7 @@
       "current": {
         "date": "2026-05-20",
         "price": 14.99,
+        "retail": 59.99,
         "store_id": "11",
         "deal_id": "mR742Y4c1gIWmd6swzFlwkJkE8gYHgTwTf2J91%2FJ5fs%3D"
       },
@@ -141,6 +147,7 @@
       "current": {
         "date": "2026-05-20",
         "price": 7.49,
+        "retail": 14.99,
         "store_id": "1",
         "deal_id": "nnV4CAy%2FSNFdauueGk5i77t%2B8%2F1DlMAY567iPs2l654%3D"
       },
@@ -160,6 +167,7 @@
       "current": {
         "date": "2026-05-20",
         "price": 7.99,
+        "retail": 39.99,
         "store_id": "11",
         "deal_id": "xp5saYR8o00pMpc%2Bb9jKjHOt69exT8tP%2BtvyFlH92g8%3D"
       },

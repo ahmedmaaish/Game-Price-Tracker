@@ -112,6 +112,7 @@ def main():
             current = {
                 "date": today,
                 "price": price,
+                "retail": float(deal["retailPrice"]) if deal.get("retailPrice") else None,
                 "store_id": deal.get("storeID"),
                 "deal_id": deal.get("dealID"),
             }
