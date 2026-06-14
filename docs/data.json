@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-13T08:56:53+00:00",
+  "updated_at": "2026-06-14T09:32:16+00:00",
   "stores": {
     "1": "Steam",
     "2": "GamersGate",
@@ -24,7 +24,7 @@
       "steam_app_id": "1969080",
       "cheapest_ever": 0.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.19,
         "retail": 1.99,
         "store_id": "7",
@@ -130,6 +130,10 @@
         {
           "date": "2026-06-13",
           "price": 1.19
+        },
+        {
+          "date": "2026-06-14",
+          "price": 1.19
         }
       ]
     },
@@ -140,7 +144,7 @@
       "steam_app_id": "2070550",
       "cheapest_ever": 1.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 2.39,
         "retail": 3.99,
         "store_id": "7",
@@ -246,6 +250,10 @@
         {
           "date": "2026-06-13",
           "price": 2.39
+        },
+        {
+          "date": "2026-06-14",
+          "price": 2.39
         }
       ]
     },
@@ -256,7 +264,7 @@
       "steam_app_id": "1055540",
       "cheapest_ever": 3.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 4.79,
         "retail": 7.99,
         "store_id": "7",
@@ -362,6 +370,10 @@
         {
           "date": "2026-06-13",
           "price": 4.79
+        },
+        {
+          "date": "2026-06-14",
+          "price": 4.79
         }
       ]
     },
@@ -372,7 +384,7 @@
       "steam_app_id": "2179170",
       "cheapest_ever": 3.49,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 4.19,
         "retail": 5.99,
         "store_id": "7",
@@ -478,6 +490,10 @@
         {
           "date": "2026-06-13",
           "price": 4.19
+        },
+        {
+          "date": "2026-06-14",
+          "price": 4.19
         }
       ]
     },
@@ -528,7 +544,7 @@
       "steam_app_id": "2206340",
       "cheapest_ever": 15.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 24.99,
         "retail": 24.99,
         "store_id": "1",
@@ -634,6 +650,10 @@
         {
           "date": "2026-06-13",
           "price": 24.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 24.99
         }
       ]
     },
@@ -644,7 +664,7 @@
       "steam_app_id": "910630",
       "cheapest_ever": 0.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.99,
         "retail": 19.99,
         "store_id": "11",
@@ -657,6 +677,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 1.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 1.99
         }
       ]
@@ -904,7 +928,7 @@
       "steam_app_id": null,
       "cheapest_ever": 8.8,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 15.0,
         "retail": 99.99,
         "store_id": "13",
@@ -998,6 +1022,10 @@
         {
           "date": "2026-06-13",
           "price": 15.0
+        },
+        {
+          "date": "2026-06-14",
+          "price": 15.0
         }
       ]
     },
@@ -1052,7 +1080,7 @@
       "steam_app_id": null,
       "cheapest_ever": 23.9,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 23.9,
         "retail": 99.99,
         "store_id": "27",
@@ -1065,6 +1093,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 23.9
+        },
+        {
+          "date": "2026-06-14",
           "price": 23.9
         }
       ]
@@ -1432,7 +1464,7 @@
       "steam_app_id": "1086940",
       "cheapest_ever": 44.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 59.99,
         "retail": 59.99,
         "store_id": "7",
@@ -1538,6 +1570,10 @@
         {
           "date": "2026-06-13",
           "price": 59.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 59.99
         }
       ]
     },
@@ -1592,7 +1628,7 @@
       "steam_app_id": "960990",
       "cheapest_ever": 1.52,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.99,
         "retail": 19.99,
         "store_id": "11",
@@ -1601,6 +1637,10 @@
       "history": [
         {
           "date": "2026-06-13",
+          "price": 1.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 1.99
         }
       ]
@@ -1612,7 +1652,7 @@
       "steam_app_id": "1928690",
       "cheapest_ever": 4.55,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 4.99,
         "retail": 19.99,
         "store_id": "1",
@@ -1625,6 +1665,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 4.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 4.99
         }
       ]
@@ -1756,7 +1800,7 @@
       "steam_app_id": "774361",
       "cheapest_ever": 2.49,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 2.49,
         "retail": 24.99,
         "store_id": "1",
@@ -1765,6 +1809,10 @@
       "history": [
         {
           "date": "2026-06-13",
+          "price": 2.49
+        },
+        {
+          "date": "2026-06-14",
           "price": 2.49
         }
       ]
@@ -1776,7 +1824,7 @@
       "steam_app_id": "397540",
       "cheapest_ever": 2.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 5.99,
         "retail": 59.99,
         "store_id": "1",
@@ -1789,6 +1837,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 5.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 5.99
         }
       ]
@@ -2022,6 +2074,26 @@
       ]
     },
     {
+      "id": 216371,
+      "title": "CARRION",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/953490/capsule_231x87.jpg?t=1760015957",
+      "steam_app_id": "953490",
+      "cheapest_ever": 1.99,
+      "current": {
+        "date": "2026-06-14",
+        "price": 1.99,
+        "retail": 19.99,
+        "store_id": "1",
+        "deal_id": "stSlZQ9QduyG%2FaTv4HxV7oQh9ya66hWwi9C8OFOLpr0%3D"
+      },
+      "history": [
+        {
+          "date": "2026-06-14",
+          "price": 1.99
+        }
+      ]
+    },
+    {
       "id": 323476,
       "title": "Cheap Car Repair",
       "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2904040/9304517f41be9f792616594aa964d08c9c07455b/capsule_231x87.jpg?t=1779977714",
@@ -2080,7 +2152,7 @@
       "steam_app_id": null,
       "cheapest_ever": 6.95,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 6.99,
         "retail": 79.99,
         "store_id": "27",
@@ -2166,6 +2238,10 @@
         {
           "date": "2026-06-13",
           "price": 6.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 6.99
         }
       ]
     },
@@ -2176,7 +2252,7 @@
       "steam_app_id": "3097300",
       "cheapest_ever": 6.39,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 7.99,
         "retail": 7.99,
         "store_id": "1",
@@ -2282,6 +2358,10 @@
         {
           "date": "2026-06-13",
           "price": 7.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 7.99
         }
       ]
     },
@@ -2292,7 +2372,7 @@
       "steam_app_id": "1079830",
       "cheapest_ever": 1.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 3.02,
         "retail": 39.99,
         "store_id": "23",
@@ -2301,6 +2381,10 @@
       "history": [
         {
           "date": "2026-06-13",
+          "price": 3.02
+        },
+        {
+          "date": "2026-06-14",
           "price": 3.02
         }
       ]
@@ -2312,7 +2396,7 @@
       "steam_app_id": "247080",
       "cheapest_ever": 1.49,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 2.99,
         "retail": 14.99,
         "store_id": "1",
@@ -2321,6 +2405,10 @@
       "history": [
         {
           "date": "2026-06-13",
+          "price": 2.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 2.99
         }
       ]
@@ -2332,7 +2420,7 @@
       "steam_app_id": "1091500",
       "cheapest_ever": 20.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 59.99,
         "retail": 59.99,
         "store_id": "11",
@@ -2438,6 +2526,10 @@
         {
           "date": "2026-06-13",
           "price": 59.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 59.99
         }
       ]
     },
@@ -2466,9 +2558,9 @@
       "title": "Destiny 2: Legacy Collection 2025",
       "thumb": "https://images.greenmangaming.com/9289e07b9a19481081b210200acf8e5e/bd35073db4644b2bac5d4de535c47f4f.jpg",
       "steam_app_id": null,
-      "cheapest_ever": 5.94,
+      "cheapest_ever": 5.95,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 6.39,
         "retail": 69.99,
         "store_id": "30",
@@ -2522,6 +2614,10 @@
         {
           "date": "2026-06-13",
           "price": 6.39
+        },
+        {
+          "date": "2026-06-14",
+          "price": 6.39
         }
       ]
     },
@@ -2532,7 +2628,7 @@
       "steam_app_id": null,
       "cheapest_ever": 2.58,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 2.58,
         "retail": 29.99,
         "store_id": "3",
@@ -2586,6 +2682,10 @@
         {
           "date": "2026-06-13",
           "price": 2.58
+        },
+        {
+          "date": "2026-06-14",
+          "price": 2.58
         }
       ]
     },
@@ -2596,7 +2696,7 @@
       "steam_app_id": null,
       "cheapest_ever": 1.29,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.29,
         "retail": 29.99,
         "store_id": "3",
@@ -2649,6 +2749,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 1.29
+        },
+        {
+          "date": "2026-06-14",
           "price": 1.29
         }
       ]
@@ -2728,7 +2832,7 @@
       "steam_app_id": "1035990",
       "cheapest_ever": 5.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 7.99,
         "retail": 7.99,
         "store_id": "1",
@@ -2834,6 +2938,10 @@
         {
           "date": "2026-06-13",
           "price": 7.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 7.99
         }
       ]
     },
@@ -2844,7 +2952,7 @@
       "steam_app_id": "1229580",
       "cheapest_ever": 2.24,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 2.24,
         "retail": 14.99,
         "store_id": "1",
@@ -2858,6 +2966,10 @@
         {
           "date": "2026-06-13",
           "price": 2.24
+        },
+        {
+          "date": "2026-06-14",
+          "price": 2.24
         }
       ]
     },
@@ -2868,7 +2980,7 @@
       "steam_app_id": "632470",
       "cheapest_ever": 3.59,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 9.99,
         "retail": 39.99,
         "store_id": "7",
@@ -2953,6 +3065,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 9.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 9.99
         }
       ]
@@ -3188,11 +3304,11 @@
     {
       "id": 140618,
       "title": "Don't Starve Together",
-      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/322330/670165a4bf515335ff0e1eb9362b9b844ff06d6d/capsule_231x87_alt_assets_50.jpg?t=1781284732",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/322330/670165a4bf515335ff0e1eb9362b9b844ff06d6d/capsule_231x87_alt_assets_50.jpg?t=1781363712",
       "steam_app_id": "322330",
       "cheapest_ever": 1.49,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.49,
         "retail": 14.99,
         "store_id": "1",
@@ -3205,6 +3321,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 1.49
+        },
+        {
+          "date": "2026-06-14",
           "price": 1.49
         }
       ]
@@ -3324,7 +3444,7 @@
       "steam_app_id": "274350",
       "cheapest_ever": 0.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 0.99,
         "retail": 9.99,
         "store_id": "1",
@@ -3338,6 +3458,10 @@
         {
           "date": "2026-06-13",
           "price": 0.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 0.99
         }
       ]
     },
@@ -3348,7 +3472,7 @@
       "steam_app_id": "3405690",
       "cheapest_ever": 13.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 13.99,
         "retail": 69.99,
         "store_id": "1",
@@ -3361,6 +3485,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 13.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 13.99
         }
       ]
@@ -3532,7 +3660,7 @@
       "steam_app_id": "1245620",
       "cheapest_ever": 29.95,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 51.59,
         "retail": 59.99,
         "store_id": "23",
@@ -3638,6 +3766,10 @@
         {
           "date": "2026-06-13",
           "price": 51.59
+        },
+        {
+          "date": "2026-06-14",
+          "price": 51.59
         }
       ]
     },
@@ -3648,7 +3780,7 @@
       "steam_app_id": null,
       "cheapest_ever": 0.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 0.99,
         "retail": 9.99,
         "store_id": "7",
@@ -3670,6 +3802,10 @@
         {
           "date": "2026-06-13",
           "price": 0.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 0.99
         }
       ]
     },
@@ -3680,7 +3816,7 @@
       "steam_app_id": "236850",
       "cheapest_ever": 3.49,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 4.99,
         "retail": 49.99,
         "store_id": "7",
@@ -3701,6 +3837,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 4.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 4.99
         }
       ]
@@ -3880,7 +4020,7 @@
       "steam_app_id": null,
       "cheapest_ever": 8.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 13.5,
         "retail": 89.99,
         "store_id": "13",
@@ -3969,6 +4109,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 13.5
+        },
+        {
+          "date": "2026-06-14",
           "price": 13.5
         }
       ]
@@ -4116,7 +4260,7 @@
       "steam_app_id": "609320",
       "cheapest_ever": 1.49,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.49,
         "retail": 14.99,
         "store_id": "7",
@@ -4134,6 +4278,10 @@
         {
           "date": "2026-06-13",
           "price": 1.49
+        },
+        {
+          "date": "2026-06-14",
+          "price": 1.49
         }
       ]
     },
@@ -4144,11 +4292,11 @@
       "steam_app_id": "858940",
       "cheapest_ever": 11.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 19.99,
         "retail": 19.99,
-        "store_id": "1",
-        "deal_id": "ZgoqPtgP5zGBkl5aHE3xe8XQ%2Bb87Heiszs%2B3Xe7Qlcc%3D"
+        "store_id": "7",
+        "deal_id": "FCI%2BVi5nWAhJRc%2F99bhOr%2BvSHKX%2F8fSCTrYF2GRD0Pk%3D"
       },
       "history": [
         {
@@ -4250,6 +4398,10 @@
         {
           "date": "2026-06-13",
           "price": 19.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 19.99
         }
       ]
     },
@@ -4260,7 +4412,7 @@
       "steam_app_id": null,
       "cheapest_ever": 8.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 13.5,
         "retail": 89.99,
         "store_id": "13",
@@ -4309,6 +4461,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 13.5
+        },
+        {
+          "date": "2026-06-14",
           "price": 13.5
         }
       ]
@@ -4408,7 +4564,7 @@
       "steam_app_id": "3599690",
       "cheapest_ever": 10.79,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 11.99,
         "retail": 11.99,
         "store_id": "1",
@@ -4514,6 +4670,10 @@
         {
           "date": "2026-06-13",
           "price": 11.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 11.99
         }
       ]
     },
@@ -4580,7 +4740,7 @@
       "steam_app_id": "1154810",
       "cheapest_ever": 1.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.99,
         "retail": 19.99,
         "store_id": "1",
@@ -4594,6 +4754,10 @@
         {
           "date": "2026-06-13",
           "price": 1.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 1.99
         }
       ]
     },
@@ -4604,7 +4768,7 @@
       "steam_app_id": null,
       "cheapest_ever": 8.25,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 8.25,
         "retail": 82.65,
         "store_id": "7",
@@ -4625,6 +4789,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 8.25
+        },
+        {
+          "date": "2026-06-14",
           "price": 8.25
         }
       ]
@@ -4760,7 +4928,7 @@
       "steam_app_id": "1145360",
       "cheapest_ever": 6.24,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 24.99,
         "retail": 24.99,
         "store_id": "1",
@@ -4865,6 +5033,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 24.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 24.99
         }
       ]
@@ -5026,13 +5198,33 @@
       ]
     },
     {
+      "id": 202696,
+      "title": "Heavy Rain",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/960910/capsule_231x87.jpg?t=1675271942",
+      "steam_app_id": "960910",
+      "cheapest_ever": 1.49,
+      "current": {
+        "date": "2026-06-14",
+        "price": 1.99,
+        "retail": 19.99,
+        "store_id": "11",
+        "deal_id": "MOMq9W6o4896kRtdmOUdL2%2FRyYt3iMUH8pSXGwbKkRg%3D"
+      },
+      "history": [
+        {
+          "date": "2026-06-14",
+          "price": 1.99
+        }
+      ]
+    },
+    {
       "id": 251471,
       "title": "her tears were my light",
       "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2112520/capsule_231x87.jpg?t=1748277818",
       "steam_app_id": "2112520",
       "cheapest_ever": 2.09,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 2.99,
         "retail": 2.99,
         "store_id": "1",
@@ -5138,6 +5330,10 @@
         {
           "date": "2026-06-13",
           "price": 2.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 2.99
         }
       ]
     },
@@ -5148,7 +5344,7 @@
       "steam_app_id": "303590",
       "cheapest_ever": 0.59,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 5.99,
         "retail": 5.99,
         "store_id": "1",
@@ -5253,6 +5449,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 5.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 5.99
         }
       ]
@@ -5376,7 +5576,7 @@
       "steam_app_id": "367520",
       "cheapest_ever": 2.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 14.99,
         "retail": 14.99,
         "store_id": "7",
@@ -5482,6 +5682,10 @@
         {
           "date": "2026-06-13",
           "price": 14.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 14.99
         }
       ]
     },
@@ -5516,7 +5720,7 @@
       "steam_app_id": "219150",
       "cheapest_ever": 0.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 0.99,
         "retail": 9.99,
         "store_id": "1",
@@ -5529,6 +5733,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 0.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 0.99
         }
       ]
@@ -5644,7 +5852,7 @@
       "steam_app_id": "279440",
       "cheapest_ever": 1.17,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.49,
         "retail": 14.99,
         "store_id": "1",
@@ -5657,6 +5865,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 1.49
+        },
+        {
+          "date": "2026-06-14",
           "price": 1.49
         }
       ]
@@ -5720,7 +5932,7 @@
       "steam_app_id": "3376990",
       "cheapest_ever": 3.49,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 4.99,
         "retail": 4.99,
         "store_id": "1",
@@ -5826,6 +6038,10 @@
         {
           "date": "2026-06-13",
           "price": 4.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 4.99
         }
       ]
     },
@@ -5836,7 +6052,7 @@
       "steam_app_id": null,
       "cheapest_ever": 14.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 19.99,
         "retail": 99.99,
         "store_id": "7",
@@ -5858,6 +6074,10 @@
         {
           "date": "2026-06-13",
           "price": 19.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 19.99
         }
       ]
     },
@@ -5868,7 +6088,7 @@
       "steam_app_id": "1060600",
       "cheapest_ever": 1.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.99,
         "retail": 19.99,
         "store_id": "7",
@@ -5889,6 +6109,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 1.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 1.99
         }
       ]
@@ -5952,7 +6176,7 @@
       "steam_app_id": "791240",
       "cheapest_ever": 1.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.99,
         "retail": 19.99,
         "store_id": "7",
@@ -5970,6 +6194,10 @@
         {
           "date": "2026-06-13",
           "price": 1.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 1.99
         }
       ]
     },
@@ -5980,7 +6208,7 @@
       "steam_app_id": "3793580",
       "cheapest_ever": 1.19,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.99,
         "retail": 1.99,
         "store_id": "1",
@@ -6085,6 +6313,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 1.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 1.99
         }
       ]
@@ -6336,7 +6568,7 @@
       "steam_app_id": "2166050",
       "cheapest_ever": 3.59,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 8.99,
         "retail": 8.99,
         "store_id": "1",
@@ -6442,6 +6674,10 @@
         {
           "date": "2026-06-13",
           "price": 8.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 8.99
         }
       ]
     },
@@ -6452,7 +6688,7 @@
       "steam_app_id": "2059670",
       "cheapest_ever": 19.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 19.99,
         "retail": 19.99,
         "store_id": "1",
@@ -6497,6 +6733,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 19.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 19.99
         }
       ]
@@ -6580,7 +6820,7 @@
       "steam_app_id": "996770",
       "cheapest_ever": 0.0,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 2.49,
         "retail": 24.99,
         "store_id": "1",
@@ -6593,6 +6833,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 2.49
+        },
+        {
+          "date": "2026-06-14",
           "price": 2.49
         }
       ]
@@ -6704,7 +6948,7 @@
       "steam_app_id": "3472040",
       "cheapest_ever": 8.04,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 15.99,
         "retail": 79.99,
         "store_id": "1",
@@ -6789,6 +7033,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 15.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 15.99
         }
       ]
@@ -7224,7 +7472,7 @@
       "steam_app_id": "448510",
       "cheapest_ever": 1.69,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.69,
         "retail": 16.99,
         "store_id": "1",
@@ -7238,6 +7486,10 @@
         {
           "date": "2026-06-13",
           "price": 1.69
+        },
+        {
+          "date": "2026-06-14",
+          "price": 1.69
         }
       ]
     },
@@ -7248,7 +7500,7 @@
       "steam_app_id": "2291760",
       "cheapest_ever": 4.49,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 5.99,
         "retail": 5.99,
         "store_id": "1",
@@ -7354,6 +7606,10 @@
         {
           "date": "2026-06-13",
           "price": 5.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 5.99
         }
       ]
     },
@@ -7364,7 +7620,7 @@
       "steam_app_id": "1260520",
       "cheapest_ever": 9.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 19.99,
         "retail": 19.99,
         "store_id": "1",
@@ -7469,6 +7725,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 19.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 19.99
         }
       ]
@@ -7936,7 +8196,7 @@
       "steam_app_id": "2132890",
       "cheapest_ever": 2.49,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 2.49,
         "retail": 9.99,
         "store_id": "1",
@@ -7949,6 +8209,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 2.49
+        },
+        {
+          "date": "2026-06-14",
           "price": 2.49
         }
       ]
@@ -8152,7 +8416,7 @@
       "steam_app_id": "1174180",
       "cheapest_ever": 12.9,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 14.99,
         "retail": 59.99,
         "store_id": "11",
@@ -8258,6 +8522,10 @@
         {
           "date": "2026-06-13",
           "price": 14.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 14.99
         }
       ]
     },
@@ -8268,7 +8536,7 @@
       "steam_app_id": null,
       "cheapest_ever": 16.2,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 19.99,
         "retail": 99.98,
         "store_id": "11",
@@ -8318,6 +8586,10 @@
         {
           "date": "2026-06-13",
           "price": 19.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 19.99
         }
       ]
     },
@@ -8364,7 +8636,7 @@
       "steam_app_id": null,
       "cheapest_ever": 3.47,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 5.9,
         "retail": 69.51,
         "store_id": "15",
@@ -8426,6 +8698,10 @@
         {
           "date": "2026-06-13",
           "price": 5.9
+        },
+        {
+          "date": "2026-06-14",
+          "price": 5.9
         }
       ]
     },
@@ -8436,7 +8712,7 @@
       "steam_app_id": null,
       "cheapest_ever": 6.95,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 6.95,
         "retail": 69.5,
         "store_id": "2",
@@ -8498,6 +8774,10 @@
         {
           "date": "2026-06-13",
           "price": 6.95
+        },
+        {
+          "date": "2026-06-14",
+          "price": 6.95
         }
       ]
     },
@@ -8508,7 +8788,7 @@
       "steam_app_id": "278100",
       "cheapest_ever": 0.74,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 0.74,
         "retail": 14.99,
         "store_id": "11",
@@ -8517,6 +8797,10 @@
       "history": [
         {
           "date": "2026-06-13",
+          "price": 0.74
+        },
+        {
+          "date": "2026-06-14",
           "price": 0.74
         }
       ]
@@ -8592,7 +8876,7 @@
       "steam_app_id": "464060",
       "cheapest_ever": 1.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.99,
         "retail": 19.99,
         "store_id": "1",
@@ -8601,6 +8885,10 @@
       "history": [
         {
           "date": "2026-06-13",
+          "price": 1.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 1.99
         }
       ]
@@ -8756,7 +9044,7 @@
       "steam_app_id": "1684410",
       "cheapest_ever": 1.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 4.99,
         "retail": 4.99,
         "store_id": "1",
@@ -8862,6 +9150,10 @@
         {
           "date": "2026-06-13",
           "price": 4.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 4.99
         }
       ]
     },
@@ -8920,7 +9212,7 @@
       "steam_app_id": "418240",
       "cheapest_ever": 0.0,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 3.49,
         "retail": 39.99,
         "store_id": "21",
@@ -8942,6 +9234,10 @@
         {
           "date": "2026-06-13",
           "price": 3.49
+        },
+        {
+          "date": "2026-06-14",
+          "price": 3.49
         }
       ]
     },
@@ -8952,7 +9248,7 @@
       "steam_app_id": "324800",
       "cheapest_ever": 0.0,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 2.99,
         "retail": 29.99,
         "store_id": "1",
@@ -8965,6 +9261,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 2.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 2.99
         }
       ]
@@ -9112,7 +9412,7 @@
       "steam_app_id": "1740300",
       "cheapest_ever": 9.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 9.99,
         "retail": 19.99,
         "store_id": "7",
@@ -9218,6 +9518,10 @@
         {
           "date": "2026-06-13",
           "price": 9.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 9.99
         }
       ]
     },
@@ -9228,7 +9532,7 @@
       "steam_app_id": null,
       "cheapest_ever": 4.49,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 9.0,
         "retail": 89.99,
         "store_id": "2",
@@ -9258,6 +9562,10 @@
         {
           "date": "2026-06-13",
           "price": 9.0
+        },
+        {
+          "date": "2026-06-14",
+          "price": 9.0
         }
       ]
     },
@@ -9268,7 +9576,7 @@
       "steam_app_id": null,
       "cheapest_ever": 9.19,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 16.0,
         "retail": 79.99,
         "store_id": "2",
@@ -9297,6 +9605,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 16.0
+        },
+        {
+          "date": "2026-06-14",
           "price": 16.0
         }
       ]
@@ -9404,7 +9716,7 @@
       "steam_app_id": "413150",
       "cheapest_ever": 5.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 14.99,
         "retail": 14.99,
         "store_id": "7",
@@ -9510,6 +9822,10 @@
         {
           "date": "2026-06-13",
           "price": 14.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 14.99
         }
       ]
     },
@@ -9520,7 +9836,7 @@
       "steam_app_id": "558420",
       "cheapest_ever": 0.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 0.99,
         "retail": 9.99,
         "store_id": "1",
@@ -9534,6 +9850,10 @@
         {
           "date": "2026-06-13",
           "price": 0.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 0.99
         }
       ]
     },
@@ -9544,7 +9864,7 @@
       "steam_app_id": null,
       "cheapest_ever": 3.0,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 8.0,
         "retail": 79.99,
         "store_id": "2",
@@ -9574,6 +9894,10 @@
         {
           "date": "2026-06-13",
           "price": 8.0
+        },
+        {
+          "date": "2026-06-14",
+          "price": 8.0
         }
       ]
     },
@@ -9584,7 +9908,7 @@
       "steam_app_id": "2702170",
       "cheapest_ever": 3.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 4.99,
         "retail": 4.99,
         "store_id": "1",
@@ -9689,6 +10013,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 4.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 4.99
         }
       ]
@@ -10128,7 +10456,7 @@
       "steam_app_id": null,
       "cheapest_ever": 16.71,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 16.75,
         "retail": 84.99,
         "store_id": "27",
@@ -10158,6 +10486,10 @@
         {
           "date": "2026-06-13",
           "price": 16.75
+        },
+        {
+          "date": "2026-06-14",
+          "price": 16.75
         }
       ]
     },
@@ -10168,7 +10500,7 @@
       "steam_app_id": null,
       "cheapest_ever": 6.1,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 6.14,
         "retail": 69.99,
         "store_id": "27",
@@ -10258,6 +10590,10 @@
         {
           "date": "2026-06-13",
           "price": 6.14
+        },
+        {
+          "date": "2026-06-14",
+          "price": 6.14
         }
       ]
     },
@@ -10268,7 +10604,7 @@
       "steam_app_id": null,
       "cheapest_ever": 8.64,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 8.68,
         "retail": 99.99,
         "store_id": "27",
@@ -10353,6 +10689,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 8.68
+        },
+        {
+          "date": "2026-06-14",
           "price": 8.68
         }
       ]
@@ -10600,7 +10940,7 @@
       "steam_app_id": null,
       "cheapest_ever": 4.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 4.99,
         "retail": 49.99,
         "store_id": "11",
@@ -10662,6 +11002,30 @@
         {
           "date": "2026-06-13",
           "price": 4.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": 207006,
+      "title": "The Coma 2: Vicious Sisters",
+      "thumb": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1045720/capsule_231x87.jpg?t=1725001948",
+      "steam_app_id": "1045720",
+      "cheapest_ever": 1.19,
+      "current": {
+        "date": "2026-06-14",
+        "price": 1.49,
+        "retail": 14.99,
+        "store_id": "1",
+        "deal_id": "vApH4UmO%2B8DOllTIbdfb%2FJsU%2BEL198mVHGn0N6NOwGc%3D"
+      },
+      "history": [
+        {
+          "date": "2026-06-14",
+          "price": 1.49
         }
       ]
     },
@@ -10860,7 +11224,7 @@
       "steam_app_id": "265590",
       "cheapest_ever": 0.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 0.99,
         "retail": 9.99,
         "store_id": "1",
@@ -10869,6 +11233,10 @@
       "history": [
         {
           "date": "2026-06-13",
+          "price": 0.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 0.99
         }
       ]
@@ -10880,7 +11248,7 @@
       "steam_app_id": "1717770",
       "cheapest_ever": 5.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 9.99,
         "retail": 9.99,
         "store_id": "1",
@@ -10986,6 +11354,10 @@
         {
           "date": "2026-06-13",
           "price": 9.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 9.99
         }
       ]
     },
@@ -10996,7 +11368,7 @@
       "steam_app_id": "292030",
       "cheapest_ever": 3.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 39.99,
         "retail": 39.99,
         "store_id": "7",
@@ -11102,6 +11474,10 @@
         {
           "date": "2026-06-13",
           "price": 39.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 39.99
         }
       ]
     },
@@ -11172,7 +11548,7 @@
       "steam_app_id": null,
       "cheapest_ever": 3.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 19.99,
         "retail": 19.99,
         "store_id": "30",
@@ -11278,6 +11654,10 @@
         {
           "date": "2026-06-13",
           "price": 19.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 19.99
         }
       ]
     },
@@ -11288,7 +11668,7 @@
       "steam_app_id": "1307580",
       "cheapest_ever": 1.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 2.49,
         "retail": 19.99,
         "store_id": "15",
@@ -11394,6 +11774,10 @@
         {
           "date": "2026-06-13",
           "price": 2.49
+        },
+        {
+          "date": "2026-06-14",
+          "price": 2.49
         }
       ]
     },
@@ -11404,7 +11788,7 @@
       "steam_app_id": "201420",
       "cheapest_ever": 0.74,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 0.74,
         "retail": 14.99,
         "store_id": "11",
@@ -11413,6 +11797,10 @@
       "history": [
         {
           "date": "2026-06-13",
+          "price": 0.74
+        },
+        {
+          "date": "2026-06-14",
           "price": 0.74
         }
       ]
@@ -11512,7 +11900,7 @@
       "steam_app_id": "690640",
       "cheapest_ever": 2.99,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 2.99,
         "retail": 29.99,
         "store_id": "30",
@@ -11525,6 +11913,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 2.99
+        },
+        {
+          "date": "2026-06-14",
           "price": 2.99
         }
       ]
@@ -11608,7 +12000,7 @@
       "steam_app_id": "2211170",
       "cheapest_ever": 13.58,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 14.38,
         "retail": 31.98,
         "store_id": "1",
@@ -11657,6 +12049,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 14.38
+        },
+        {
+          "date": "2026-06-14",
           "price": 14.38
         }
       ]
@@ -12020,7 +12416,7 @@
       "steam_app_id": null,
       "cheapest_ever": 0.0,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 0.0,
         "retail": 19.99,
         "store_id": "25",
@@ -12033,6 +12429,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 0.0
+        },
+        {
+          "date": "2026-06-14",
           "price": 0.0
         }
       ]
@@ -12220,7 +12620,7 @@
       "steam_app_id": null,
       "cheapest_ever": 7.2,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 12.0,
         "retail": 79.99,
         "store_id": "13",
@@ -12309,6 +12709,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 12.0
+        },
+        {
+          "date": "2026-06-14",
           "price": 12.0
         }
       ]
@@ -12436,7 +12840,7 @@
       "steam_app_id": "416680",
       "cheapest_ever": 1.0,
       "current": {
-        "date": "2026-06-13",
+        "date": "2026-06-14",
         "price": 1.29,
         "retail": 12.99,
         "store_id": "7",
@@ -12457,6 +12861,10 @@
         },
         {
           "date": "2026-06-13",
+          "price": 1.29
+        },
+        {
+          "date": "2026-06-14",
           "price": 1.29
         }
       ]
